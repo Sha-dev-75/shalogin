@@ -1,4 +1,4 @@
-#Mon Feb 10 10:50:01 WITA 2020
-base.0=/Applications/XAMPP/xamppfiles/htdocs/Android/XML/shalogin/BelajarXML1/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Mon Feb 10 16:09:27 WITA 2020
+base.0=/Users/viodyalfarizi/AndroidStudioProjects/shalogin/BelajarXML1/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -62,12 +62,13 @@
                     android:layout_marginLeft="23dp"
                     android:layout_marginTop="7dp"
                     android:id="@+id/username"
-                    android:textColor="@color/silverText"
+                    android:textColorHint="@color/silverText"
+                    android:textColor="@color/blackText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
                     android:fontFamily="@font/arlrdbd"
-                    android:text="Username"
+                    android:hint="Username"
                     android:background="@null"
                     android:textSize="20dp"/>
 
@@ -85,14 +86,15 @@
                     android:layout_marginLeft="23dp"
                     android:layout_marginTop="7dp"
                     android:id="@+id/password"
-                    android:textColor="@color/silverText"
+                    android:textColorHint="@color/silverText"
+                    android:textColor="@color/blackText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/arlrdbd"
                     android:ems="10"
                     android:inputType="textPassword"
-                    android:text="Password"
+                    android:hint="Password"
                     android:background="@null"
                     android:textSize="20dp"/>
 
@@ -103,9 +105,14 @@
                 android:layout_height="68dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="25dp"
-                android:layout_weight="1"
-                android:background="@drawable/login_btn">
+                android:layout_weight="1">
 
+                <ImageButton
+                    android:id="@+id/btn_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_ani"
+                    />
             </LinearLayout>
 
             <LinearLayout
